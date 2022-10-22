@@ -1,10 +1,10 @@
 {
-  "name": "color-byhour",
-  "version": "0.1.0",
+  "name": "colors-per-hour",
+  "version": "0.3.0",
   "license": "MIT",
   "author": "adriansw20@hotmail.com",
   "main": "dist/index.js",
-  "module": "dist/color-byhour.esm.js",
+  "module": "dist/colors-per-hour.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -39,12 +39,21 @@
   },
   "size-limit": [
     {
-      "path": "dist/color-byhour.cjs.production.min.js",
+      "path": "dist/colors-per-hour.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/color-byhour.esm.js",
+      "path": "dist/colors-per-hour.esm.js",
       "limit": "10 KB"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.1.0",
+    "@tsconfig/recommended": "^1.0.1",
+    "dts-cli": "^1.6.0",
+    "husky": "^8.0.1",
+    "size-limit": "^8.1.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
 }
