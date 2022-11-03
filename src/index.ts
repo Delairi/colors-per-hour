@@ -8,7 +8,7 @@ interface comprobationInterface{
   _arr:string[];
 }
 
-export const Comprobation = ({_random,_arr}:comprobationInterface) =>{
+const getColor = ({_random,_arr}:comprobationInterface) =>{
   const _hour = Hour()
   
   if(ArrEqualToZero({_arr})) return "Length > 0"
@@ -24,3 +24,4 @@ export const Comprobation = ({_random,_arr}:comprobationInterface) =>{
 }
 
 
+export default getColor

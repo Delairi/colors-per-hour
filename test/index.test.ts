@@ -1,8 +1,8 @@
-import { Comprobation} from '../src/index';
-import { colors } from './colors';
-import {Hour} from '../src/utils/Hour'
+import getColor from '../src/index';
+import {colors} from '../src/utils/Colors';
+
 describe('Comprobation', () => {
   it('What color', () => {
-    expect(Comprobation({_random:false,_arr:colors})).toEqual("#85FFC7");
+    expect(getColor({_random:false,_arr:colors})).toEqual("#e9ecef");
   });
 });

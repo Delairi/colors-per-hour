@@ -1,8 +1,8 @@
 {
   "name": "colors-per-hour",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
-  "author": "adriansw20@hotmail.com",
+  "author": "Delairi",
   "main": "dist/index.js",
   "module": "dist/colors-per-hour.esm.js",
   "typings": "dist/index.d.ts",
@@ -52,6 +52,7 @@
     "@tsconfig/recommended": "^1.0.1",
     "dts-cli": "^1.6.0",
     "husky": "^8.0.1",
+    "jest": "^27.5.1",
     "size-limit": "^8.1.0",
     "tslib": "^2.4.0",
     "typescript": "^4.8.4"
